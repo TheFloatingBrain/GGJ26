@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bc7jy1bthl1ew"]
 
-[ext_resource type="PackedScene" uid="uid://71wmvpwvoq2t" path="res://human-male.glb" id="1_onrkg"]
 [ext_resource type="Script" uid="uid://hfu3opt7nusj" path="res://player.gd" id="2_i3pqv"]
+[ext_resource type="PackedScene" uid="uid://c8yjd06ey11vt" path="res://human_male.tscn" id="2_onrkg"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 
@@ -13,8 +13,8 @@ shape = SubResource("CapsuleShape3D_4flbx")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=762893756]
 
-[node name="human-male" parent="MeshInstance3D" unique_id=1398505748 instance=ExtResource("1_onrkg")]
-transform = Transform3D(0.5752581, 0, 0, 0, 0.5396537, 0, 0, 0, 0.70950866, 0, -1.017178, 0)
+[node name="human-male" parent="." unique_id=1042122858 instance=ExtResource("2_onrkg")]
+transform = Transform3D(0.469209, 0, 0, 0, 0.469209, 0, 0, 0, 0.469209, 0, -0.8512471, 0.06709814)
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=251572199]
-transform = Transform3D(-1, 0, -8.742278e-08, -4.4169106e-08, 0.8629814, 0.5052357, 7.544423e-08, 0.5052357, -0.8629814, 0, 1.137321, -1.4258509)
+transform = Transform3D(-0.9828378, 0, -8.592241e-08, -4.3411067e-08, 0.84817076, 0.49656478, 7.414944e-08, 0.49656478, -0.84817076, 0, 1.137321, -1.4258509)
