@@ -1,3 +1,22 @@
 [gd_scene format=3 uid="uid://dkv5aab3t78tr"]
 
+[ext_resource type="PackedScene" uid="uid://di50at8suabro" path="res://platform.tscn" id="1_gojnm"]
+[ext_resource type="PackedScene" uid="uid://bc7jy1bthl1ew" path="res://player.tscn" id="2_1c2mv"]
+
 [node name="test-level" type="Node3D" unique_id=779846181]
+
+[node name="platform" parent="." unique_id=897591778 instance=ExtResource("1_gojnm")]
+transform = Transform3D(0.8089633, -0.40344524, 0.42756316, 0.33861136, 0.91433823, 0.2220988, -0.4805421, -0.034892023, 0.87627727, -0.33072782, 0, -0.009882212)
+
+[node name="platform2" parent="." unique_id=141468478 instance=ExtResource("1_gojnm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.181182, -2.3841858e-07, 1.359072)
+
+[node name="platform3" parent="." unique_id=395172727 instance=ExtResource("1_gojnm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.7106557, 0, -1.3493898)
+
+[node name="platform4" parent="." unique_id=338136613 instance=ExtResource("1_gojnm")]
+transform = Transform3D(9.019059, 0, 0, 0, 1, 0, 0, 0, 2.6892943, -4.235925, 0, -2.8472297)
+top_level = true
+
+[node name="player" parent="." unique_id=1079585947 instance=ExtResource("2_1c2mv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8028007, 1.517178, -3.970147)
