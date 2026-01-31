@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="ggj-26"
+run/main_scene="uid://bc7jy1bthl1ew"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[filesystem]
+
+import/blender/enabled=false
 
 [physics]
 
