@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://c8yjd06ey11vt"]
 
 [ext_resource type="PackedScene" uid="uid://71wmvpwvoq2t" path="res://human-male.glb" id="1_g8bsp"]
-[ext_resource type="Texture2D" uid="uid://c55uytss8flh7" path="res://PlayerModel copy.png" id="2_675d3"]
+[ext_resource type="Texture2D" uid="uid://c55uytss8flh7" path="res://PlayerModel.png" id="2_675d3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3qf1n"]
 albedo_texture = ExtResource("2_675d3")
 
 [node name="human-male" unique_id=1042122858 instance=ExtResource("1_g8bsp")]
 
-[node name="meHumanMale_001" parent="meHumanMale_001/arMaleArm/Skeleton3D" parent_id_path=PackedInt32Array(1937219799) index="0" unique_id=109153600]
+[node name="meHumanMale_001" parent="meHumanMale_001/arMaleArm/Skeleton3D" parent_id_path=PackedInt32Array(2089944841) index="0" unique_id=773146477]
 material_override = SubResource("StandardMaterial3D_3qf1n")

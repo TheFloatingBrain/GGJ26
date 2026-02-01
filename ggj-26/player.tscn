@@ -11,8 +11,6 @@ script = ExtResource("2_i3pqv")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1096023369]
 shape = SubResource("CapsuleShape3D_4flbx")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=762893756]
-
 [node name="human-male" parent="." unique_id=1042122858 instance=ExtResource("2_onrkg")]
 transform = Transform3D(0.469209, 0, 0, 0, 0.469209, 0, 0, 0, 0.469209, 0, -0.8512471, 0.06709814)
 
